@@ -4,6 +4,7 @@ class Book
 
   def genre=(genre)
     @genre = genre
+    self.:GENRES << genre
   end
 
   GENRES = []
