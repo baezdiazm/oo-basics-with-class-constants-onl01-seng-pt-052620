@@ -4,7 +4,7 @@ class Book
 
   def genre=(genre)
     @genre = genre
-    :GENRES.push(genre)
+    :GENRES << genre
   end
 
   GENRES = []
